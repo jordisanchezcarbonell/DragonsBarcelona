@@ -32,11 +32,11 @@ const Home: NextPage = () => {
         <title>Barcelona Dragons Photos</title>
         <meta
           property="og:image"
-          content="https://dragons-barcelona.vercel.app/og-image.png"
+          content="https://dragons-barcelona.vercel.app/Logo_Barcelona_Dragons.svg"
         />
         <meta
           name="twitter:image"
-          content="https://dragons-barcelona.vercel.app/og-image.png"
+          content="https://dragons-barcelona.vercel.app/Logo_Barcelona_Dragons.svg"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
