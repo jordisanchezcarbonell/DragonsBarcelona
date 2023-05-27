@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Barcelona Dragons Photos</title>
         <meta
           property="og:image"
           content="https://dragons-barcelona.vercel.app/og-image.png"

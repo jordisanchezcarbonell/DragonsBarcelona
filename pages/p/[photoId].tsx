@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>Barcelona Dragons Photos</title>
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
         {currentPhotoUrl && (
