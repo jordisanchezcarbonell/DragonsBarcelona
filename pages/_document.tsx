@@ -1,4 +1,4 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
@@ -6,21 +6,17 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta
-            name="description"
-            content="See pictures from Next.js Conf and the After Party."
-          />
-          <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
+          <meta name="description" content="See pictures from " />
           <meta
             property="og:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="See pictures from Dragons Barcelona "
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="Dragons Barcelona Pictures" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
+          <meta name="twitter:title" content="Dragons Barcelona Pictures" />
           <meta
             name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="See pictures from Dragons Barcelona"
           />
         </Head>
         <body className="bg-black antialiased">
@@ -28,8 +24,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
